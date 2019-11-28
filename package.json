@@ -1,0 +1,29 @@
+{
+  "name": "scraperjs",
+  "version": "1.0.0",
+  "description": "A template web scraper in JavaScript",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "0.19.0",
+    "cheerio": "1.0.0-rc.3",
+    "esm": "3.2.25"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketbear27/scraperjs.git"
+  },
+  "keywords": [],
+  "author": "RocketBear27",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rocketbear27/scraperjs/issues"
+  },
+  "homepage": "https://github.com/rocketbear27/scraperjs#readme"
+}
