@@ -9,11 +9,14 @@
   "dependencies": {
     "axios": "0.19.0",
     "cheerio": "1.0.0-rc.3",
-    "esm": "3.2.25"
+    "esm": "3.2.25",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "node -r esm index.js"
+    "dev": "node -r esm index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/rocketbear27/scraperjs/issues"
   },
-  "homepage": "https://github.com/rocketbear27/scraperjs#readme"
+  "homepage": "https://github.com/rocketbear27/scraperjs#readme",
+  "snyk": true
 }
